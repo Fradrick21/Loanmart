@@ -67,16 +67,17 @@
     <div class="hero-form-tag">Free Consultation</div>
     <h3>Get Financial Advisory Today</h3>
     <p>Share your financial goals and our experts will provide personalized guidance for your situation.</p>
-    <form class="hero-lead-form">
-      <input type="text" name="full_name" placeholder="Full Name" aria-label="Full Name">
-      <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number">
-      <select name="advisory_type" aria-label="Advisory Type">
+    <form class="hero-lead-form" id="lead-form-advisory" novalidate>
+      <input type="hidden" name="page_source" value="Financial Advisory Page">
+      <input type="text" name="full_name" placeholder="Full Name" aria-label="Full Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" required>
+      <select name="loan_type" aria-label="Advisory Type" required>
         <option value="">Advisory Type</option>
         <option value="loan">Loan Consultation</option>
         <option value="credit">Credit Improvement</option>
         <option value="planning">Financial Planning</option>
       </select>
-      <input type="text" name="city" placeholder="City" aria-label="City">
+      <input type="text" name="city" placeholder="City" aria-label="City" required>
       <button type="submit" class="hero-form-btn">Schedule Consultation</button>
     </form>
     <div class="hero-form-note">Personalized guidance. Expert advice. No hidden charges.</div>
@@ -249,7 +250,7 @@
     <div class="footer-contact">
       <h4>Contact</h4>
       <p><strong>Phone:</strong> <a href="tel:9710675735">97106 75735</a></p>
-      <p><strong>Email:</strong> <a href="mailto:hello@loanmart.com">hello@loanmart.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:fradrickraj21@gmail.com">fradrickraj21@gmail.com</a></p>
       <p><strong>Support:</strong> <a href="#cta">Apply Now</a></p>
       <div class="footer-social" style="margin-top: 1.25rem;">
         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
